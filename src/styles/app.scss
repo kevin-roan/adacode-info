@@ -1,0 +1,24 @@
+@import './card.scss';
+
+
+.app {
+  .meet_heading {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3em;
+    color: var(--primary-color);
+    background: linear-gradient(45deg, #ff00cc, #3333ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 100svh;
+  flex-wrap: wrap;
+  padding: 2vmax 4vmax;
+}

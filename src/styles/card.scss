@@ -1,0 +1,39 @@
+.card {
+  background-color: var(--primary-color);
+  width: 20rem;
+  height: 37rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 0.234);
+  text-align: center;
+  color: white;
+
+  .useravatar {
+    height: 10rem;
+    border-radius: 100px;
+  }
+
+  .placecard {
+    margin-top: 1rem;
+    padding: 0.4rem 7rem;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+
+    &:hover {
+      border: 1px solid white;
+      color: white;
+      background-color: var(--primary-color);
+      transition: ease-in-out 0.3s;
+    }
+  }
+
+  .qrcode {
+    height: 10rem;
+    margin-top: 1rem;
+  }
+
+}
